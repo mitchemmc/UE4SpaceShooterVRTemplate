@@ -16,7 +16,7 @@ Features
 
 Installation
 ------------
-1. Download the Template
+1. [Download the Template](https://github.com/mitchemmc/UE4SpaceShooterVRTemplate/releases/tag/V0.1)
 1. Unzip the package into your templates directory, generally in 'C:\Program Files\Unreal Engine[Version]\Templates'
 1. Open UE4 and create a new project you should see a new option 'Blueprint VR Space Shooter' choose that
 
