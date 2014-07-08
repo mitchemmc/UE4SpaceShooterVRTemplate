@@ -1,0 +1,495 @@
+Log file open, 07/06/14 17:23:07
+LogInit:Display: Running engine for game: TP_VRSpaceShooter
+LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line:  /Temp/Autosaves/Game/UEDPCDefaultAsteroidField -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.07.06-07.23.07:136][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.06-07.23.07:165][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.06-07.23.07:173][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.06-07.23.07:178][  0]LogInit: Object subsystem initialized
+[2014.07.06-07.23.07:179][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.06-07.23.07:179][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.06-07.23.07:183][  0]LogInit: Computer: HOME
+[2014.07.06-07.23.07:183][  0]LogInit: User: McCaffrey
+[2014.07.06-07.23.07:184][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.06-07.23.07:184][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2014.07.06-07.23.07:184][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.07.06-07.23.07:185][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.06-07.23.07:185][  0]LogMemory: Process Physical Memory: 53.10 MB used, 53.10 MB peak
+[2014.07.06-07.23.07:185][  0]LogMemory: Process Virtual Memory: 29.54 MB used, 29.54 MB peak
+[2014.07.06-07.23.07:185][  0]LogMemory: Physical Memory: 4665.76 MB used, 16261.78 MB total
+[2014.07.06-07.23.07:185][  0]LogMemory: Virtual Memory: 246.56 MB used, 134217728.00 MB total
+[2014.07.06-07.23.07:212][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.07.06-07.23.07:212][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.07.06-07.23.07:218][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.07.06-07.23.07:218][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2014.07.06-07.23.07:219][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.07.06-07.23.07:219][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.07.06-07.23.07:219][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.06-07.23.07:223][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.06-07.23.07:231][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.06-07.23.07:318][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2014.07.06-07.23.08:012][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.06-07.23.08:111][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.06-07.23.08:145][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.06-07.23.08:185][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.06-07.23.08:185][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.06-07.23.08:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/McCaffrey/Documents/Unreal Projects/TP_VRSpaceShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.06-07.23.08:186][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.06-07.23.08:193][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.06-07.23.08:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/McCaffrey/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.06-07.23.08:356][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.06-07.23.08:356][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.06-07.23.08:592][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.06-07.23.08:910][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.06-07.23.08:910][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.06-07.23.08:914][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.06-07.23.08:914][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.06-07.23.09:239][  0]SourceControl: Info Source control is disabled
+[2014.07.06-07.23.09:239][  0]SourceControl: Info Source control is disabled
+[2014.07.06-07.23.09:245][  0]SourceControl: Info Source control is disabled
+[2014.07.06-07.23.09:252][  0]LogObj: 18770 objects as part of root set at end of initial load.
+[2014.07.06-07.23.09:252][  0]LogUObjectAllocator: 3566744 out of 0 bytes used by permanent object pool.
+[2014.07.06-07.23.09:564][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2014.07.06-07.23.09:564][  0]LogEngine: Initializing Engine...
+[2014.07.06-07.23.09:565][  0]OCULUS: OVR::DeviceManager - initialized.
+[2014.07.06-07.23.09:637][  0]OCULUS: OVR::DeviceManagerThread - running (ThreadId=0x134C).
+[2014.07.06-07.23.09:637][  0]LogHMD:Warning: DeviceManager reported device added.
+[2014.07.06-07.23.09:637][  0]LogHMD:Warning: DeviceManager reported device added.
+[2014.07.06-07.23.09:637][  0]LogHMD:Warning: DeviceManager reported device added.
+[2014.07.06-07.23.09:637][  0]LogHMD:Warning: DeviceManager reported device added.
+[2014.07.06-07.23.09:637][  0]OCULUS: 
+[2014.07.06-07.23.09:637][  0]OCULUS: OVR::SensorDevice initialized.
+[2014.07.06-07.23.09:637][  0]LogHMD: Oculus Latency Tester not found.
+[2014.07.06-07.23.09:719][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.07.06-07.23.09:729][  0]LogInit: FAudioDevice initialized.
+[2014.07.06-07.23.09:733][  0]LogInit: Texture streaming: Enabled
+[2014.07.06-07.23.09:774][  0]LogConsoleResponse:Display: 
+[2014.07.06-07.23.09:775][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCDefaultAsteroidField?Name=Player
+[2014.07.06-07.23.09:775][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCDefaultAsteroidField?Name=Player
+[2014.07.06-07.23.09:786][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.06-07.23.09:786][  0]LogMemory: Process Physical Memory: 276.22 MB used, 282.20 MB peak
+[2014.07.06-07.23.09:786][  0]LogMemory: Process Virtual Memory: 239.53 MB used, 248.33 MB peak
+[2014.07.06-07.23.09:786][  0]LogMemory: Physical Memory: 4880.47 MB used, 16261.78 MB total
+[2014.07.06-07.23.09:786][  0]LogMemory: Virtual Memory: 611.08 MB used, 134217728.00 MB total
+[2014.07.06-07.23.09:786][  0]LogMemory: 
+[2014.07.06-07.23.09:786][  0]Allocator Stats for TBB: (not implemented)
+[2014.07.06-07.23.10:519][  0]LogLinker:Warning: Asset '../../../../../../Users/McCaffrey/Documents/Unreal Projects/TP_VRSpaceShooter/Content/Props/MaterialSphere.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.06-07.23.10:628][  0]LogWorld: Game class is 'SpaceShooterGameMode_C'
+[2014.07.06-07.23.10:670][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField up for play (max tick rate 0) at 2014.07.06-17.23.10
+[2014.07.06-07.23.10:670][  0]LogWorld: Bringing up level for play took: 0.042513
+[2014.07.06-07.23.10:671][  0]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.06-07.23.10:671][  0]LogGameMode: RestartPlayer Player
+[2014.07.06-07.23.10:673][  0]LogPlayerController: ClientRestart_Implementation SpaceShooterPawn_C_0
+[2014.07.06-07.23.10:673][  0]LogPlayerController: ServerAcknowledgePossession_Implementation SpaceShooterPawn_C_0
+[2014.07.06-07.23.10:676][  0]LogInit:Display: Game Engine Initialized.
+[2014.07.06-07.23.10:737][  0]LogLoad: Full Startup: 4.25 seconds (BP compile: 0.45 seconds)
+[2014.07.06-07.23.10:760][  1]LogRenderer:Warning: Reallocating scene render targets to support 1280x720.
+[2014.07.06-07.23.11:397][ 39]LogConsoleResponse:Display: 
+[2014.07.06-07.23.12:439][ 39]LogRenderer:Warning: Reallocating scene render targets to support 1664x1040.
+[2014.07.06-07.23.12:439][ 39]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.12:439][ 39]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.PPQ4)
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.EQ1)
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.EQ2)
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.EQ3)
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.EQ4)
+[2014.07.06-07.23.12:440][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.TQ1)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.TQ2)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.TQ3)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.TQ4)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SQ1)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SQ2)
+[2014.07.06-07.23.12:441][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SQ3)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SQ4)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.PPQ1)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.PPQ2)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.PPQ3)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.VDDown)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.VDUp)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.AADown)
+[2014.07.06-07.23.12:443][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.AAUp)
+[2014.07.06-07.23.12:445][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.DSUp01)
+[2014.07.06-07.23.12:445][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.ToggleButton5Active)
+[2014.07.06-07.23.12:445][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.ToggleButton6Active)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.IPDDown)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.IPDUp)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SPUp)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SPDown)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SPDown01)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.SPUp01)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.DSUP)
+[2014.07.06-07.23.12:447][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.DSDown)
+[2014.07.06-07.23.12:449][ 39]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_0.DSDOwn01)
+[2014.07.06-07.23.12:451][ 39]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.28:807][ 13]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.28:807][ 13]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.PPQ4)
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.EQ1)
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.EQ2)
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.EQ3)
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.EQ4)
+[2014.07.06-07.23.28:808][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.TQ1)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.TQ2)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.TQ3)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.TQ4)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SQ1)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SQ2)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SQ3)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SQ4)
+[2014.07.06-07.23.28:809][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.PPQ1)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.PPQ2)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.PPQ3)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.VDDown)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.VDUp)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.AADown)
+[2014.07.06-07.23.28:810][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.AAUp)
+[2014.07.06-07.23.28:812][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.DSUp01)
+[2014.07.06-07.23.28:812][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.ToggleButton5Active)
+[2014.07.06-07.23.28:812][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.ToggleButton6Active)
+[2014.07.06-07.23.28:812][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.IPDDown)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.IPDUp)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SPUp)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SPDown)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SPDown01)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.SPUp01)
+[2014.07.06-07.23.28:813][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.DSUP)
+[2014.07.06-07.23.28:814][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.DSDown)
+[2014.07.06-07.23.28:814][ 13]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_1.DSDOwn01)
+[2014.07.06-07.23.28:815][ 13]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.31:586][180]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.31:587][180]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.31:587][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.PPQ4)
+[2014.07.06-07.23.31:587][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.EQ1)
+[2014.07.06-07.23.31:587][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.EQ2)
+[2014.07.06-07.23.31:587][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.EQ3)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.EQ4)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.TQ1)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.TQ2)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.TQ3)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.TQ4)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SQ1)
+[2014.07.06-07.23.31:588][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SQ2)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SQ3)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SQ4)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.PPQ1)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.PPQ2)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.PPQ3)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.VDDown)
+[2014.07.06-07.23.31:589][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.VDUp)
+[2014.07.06-07.23.31:590][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.AADown)
+[2014.07.06-07.23.31:590][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.AAUp)
+[2014.07.06-07.23.31:591][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.DSUp01)
+[2014.07.06-07.23.31:591][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.ToggleButton5Active)
+[2014.07.06-07.23.31:591][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.ToggleButton6Active)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.IPDDown)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.IPDUp)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SPUp)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SPDown)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SPDown01)
+[2014.07.06-07.23.31:592][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.SPUp01)
+[2014.07.06-07.23.31:593][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.DSUP)
+[2014.07.06-07.23.31:593][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.DSDown)
+[2014.07.06-07.23.31:593][180]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_2.DSDOwn01)
+[2014.07.06-07.23.31:594][180]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.33:755][310]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.33:755][310]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.33:756][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.PPQ4)
+[2014.07.06-07.23.33:756][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.EQ1)
+[2014.07.06-07.23.33:756][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.EQ2)
+[2014.07.06-07.23.33:756][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.EQ3)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.EQ4)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.TQ1)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.TQ2)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.TQ3)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.TQ4)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SQ1)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SQ2)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SQ3)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SQ4)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.PPQ1)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.PPQ2)
+[2014.07.06-07.23.33:757][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.PPQ3)
+[2014.07.06-07.23.33:759][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.VDDown)
+[2014.07.06-07.23.33:759][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.VDUp)
+[2014.07.06-07.23.33:759][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.AADown)
+[2014.07.06-07.23.33:759][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.AAUp)
+[2014.07.06-07.23.33:760][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.DSUp01)
+[2014.07.06-07.23.33:760][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.ToggleButton5Active)
+[2014.07.06-07.23.33:761][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.ToggleButton6Active)
+[2014.07.06-07.23.33:761][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.IPDDown)
+[2014.07.06-07.23.33:761][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.IPDUp)
+[2014.07.06-07.23.33:761][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SPUp)
+[2014.07.06-07.23.33:761][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SPDown)
+[2014.07.06-07.23.33:762][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SPDown01)
+[2014.07.06-07.23.33:762][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.SPUp01)
+[2014.07.06-07.23.33:762][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.DSUP)
+[2014.07.06-07.23.33:762][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.DSDown)
+[2014.07.06-07.23.33:762][310]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_3.DSDOwn01)
+[2014.07.06-07.23.33:764][310]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.35:621][422]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.35:621][422]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.35:621][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.PPQ4)
+[2014.07.06-07.23.35:621][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.EQ1)
+[2014.07.06-07.23.35:622][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.EQ2)
+[2014.07.06-07.23.35:622][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.EQ3)
+[2014.07.06-07.23.35:622][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.EQ4)
+[2014.07.06-07.23.35:622][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.TQ1)
+[2014.07.06-07.23.35:622][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.TQ2)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.TQ3)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.TQ4)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SQ1)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SQ2)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SQ3)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SQ4)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.PPQ1)
+[2014.07.06-07.23.35:623][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.PPQ2)
+[2014.07.06-07.23.35:624][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.PPQ3)
+[2014.07.06-07.23.35:624][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.VDDown)
+[2014.07.06-07.23.35:624][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.VDUp)
+[2014.07.06-07.23.35:624][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.AADown)
+[2014.07.06-07.23.35:624][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.AAUp)
+[2014.07.06-07.23.35:625][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.DSUp01)
+[2014.07.06-07.23.35:625][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.ToggleButton5Active)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.ToggleButton6Active)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.IPDDown)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.IPDUp)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SPUp)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SPDown)
+[2014.07.06-07.23.35:626][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SPDown01)
+[2014.07.06-07.23.35:627][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.SPUp01)
+[2014.07.06-07.23.35:627][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.DSUP)
+[2014.07.06-07.23.35:627][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.DSDown)
+[2014.07.06-07.23.35:627][422]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_4.DSDOwn01)
+[2014.07.06-07.23.35:628][422]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.37:188][516]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.37:188][516]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.37:189][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.PPQ4)
+[2014.07.06-07.23.37:189][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.EQ1)
+[2014.07.06-07.23.37:189][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.EQ2)
+[2014.07.06-07.23.37:189][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.EQ3)
+[2014.07.06-07.23.37:189][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.EQ4)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.TQ1)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.TQ2)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.TQ3)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.TQ4)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SQ1)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SQ2)
+[2014.07.06-07.23.37:190][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SQ3)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SQ4)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.PPQ1)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.PPQ2)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.PPQ3)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.VDDown)
+[2014.07.06-07.23.37:191][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.VDUp)
+[2014.07.06-07.23.37:192][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.AADown)
+[2014.07.06-07.23.37:192][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.AAUp)
+[2014.07.06-07.23.37:193][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.DSUp01)
+[2014.07.06-07.23.37:194][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.ToggleButton5Active)
+[2014.07.06-07.23.37:194][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.ToggleButton6Active)
+[2014.07.06-07.23.37:194][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.IPDDown)
+[2014.07.06-07.23.37:194][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.IPDUp)
+[2014.07.06-07.23.37:194][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SPUp)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SPDown)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SPDown01)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.SPUp01)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.DSUP)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.DSDown)
+[2014.07.06-07.23.37:195][516]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_5.DSDOwn01)
+[2014.07.06-07.23.37:197][516]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.39:069][629]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.39:069][629]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.PPQ4)
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.EQ1)
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.EQ2)
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.EQ3)
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.EQ4)
+[2014.07.06-07.23.39:070][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.TQ1)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.TQ2)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.TQ3)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.TQ4)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SQ1)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SQ2)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SQ3)
+[2014.07.06-07.23.39:071][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SQ4)
+[2014.07.06-07.23.39:072][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.PPQ1)
+[2014.07.06-07.23.39:072][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.PPQ2)
+[2014.07.06-07.23.39:072][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.PPQ3)
+[2014.07.06-07.23.39:072][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.VDDown)
+[2014.07.06-07.23.39:073][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.VDUp)
+[2014.07.06-07.23.39:073][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.AADown)
+[2014.07.06-07.23.39:073][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.AAUp)
+[2014.07.06-07.23.39:075][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.DSUp01)
+[2014.07.06-07.23.39:075][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.ToggleButton5Active)
+[2014.07.06-07.23.39:075][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.ToggleButton6Active)
+[2014.07.06-07.23.39:076][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.IPDDown)
+[2014.07.06-07.23.39:076][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.IPDUp)
+[2014.07.06-07.23.39:076][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SPUp)
+[2014.07.06-07.23.39:076][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SPDown)
+[2014.07.06-07.23.39:077][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SPDown01)
+[2014.07.06-07.23.39:077][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.SPUp01)
+[2014.07.06-07.23.39:077][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.DSUP)
+[2014.07.06-07.23.39:077][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.DSDown)
+[2014.07.06-07.23.39:078][629]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_6.DSDOwn01)
+[2014.07.06-07.23.39:080][629]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.41:019][746]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:04AD
+[2014.07.06-07.23.41:019][746]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	VRSpaceShooterController_C /Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.VRSpaceShooterController_C_0
+	Function /Game/Blueprints/VRSpaceShooterController.VRSpaceShooterController_C:ToggleMenu:074B
+[2014.07.06-07.23.41:019][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.PPQ4)
+[2014.07.06-07.23.41:019][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.EQ1)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.EQ2)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.EQ3)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.EQ4)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.TQ1)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.TQ2)
+[2014.07.06-07.23.41:020][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.TQ3)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.TQ4)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SQ1)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SQ2)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SQ3)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SQ4)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.PPQ1)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.PPQ2)
+[2014.07.06-07.23.41:021][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.PPQ3)
+[2014.07.06-07.23.41:022][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.VDDown)
+[2014.07.06-07.23.41:022][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.VDUp)
+[2014.07.06-07.23.41:022][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.AADown)
+[2014.07.06-07.23.41:022][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.AAUp)
+[2014.07.06-07.23.41:024][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.DSUp01)
+[2014.07.06-07.23.41:024][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.ToggleButton5Active)
+[2014.07.06-07.23.41:024][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.ToggleButton6Active)
+[2014.07.06-07.23.41:024][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.IPDDown)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.IPDUp)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SPUp)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SPDown)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SPDown01)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.SPUp01)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.DSUP)
+[2014.07.06-07.23.41:025][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.DSDown)
+[2014.07.06-07.23.41:026][746]LogPrimitiveComponent: Zero scaling not supported (/Temp/Autosaves/Game/UEDPCDefaultAsteroidField.DefaultAsteroidField:PersistentLevel.ContextMenu_C_7.DSDOwn01)
+[2014.07.06-07.23.41:027][746]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2014.07.06-07.23.45:300][  3]Closing by request
+[2014.07.06-07.23.45:300][  3]LogWindows: FPlatformMisc::RequestExit(0)
+[2014.07.06-07.23.46:102][  4]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.06-07.23.46:122][  4]LogExit: Preparing to exit.
+[2014.07.06-07.23.46:337][  4]LogExit: Game engine shut down
+[2014.07.06-07.23.46:342][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D3D07E2FC0
+[2014.07.06-07.23.46:356][  4]OCULUS: OVR::SensorDevice - Closed '\\?\hid#vid_2833&pid_0001#7&3561e670&1&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+[2014.07.06-07.23.46:356][  4]OCULUS: OVR::Win32::HIDDevice - Closed '\\?\hid#vid_2833&pid_0001#7&3561e670&1&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}'
+[2014.07.06-07.23.46:356][  4]OCULUS: OVR::DeviceManager - shutting down.
+[2014.07.06-07.23.46:356][  4]OCULUS: OVR::DeviceManagerThread - exiting (ThreadId=0x134C).
+[2014.07.06-07.23.46:356][  4]LogHMD: Oculus shutdown.
+[2014.07.06-07.23.46:382][  4]LogExit: Object subsystem successfully closed.
+[2014.07.06-07.23.46:407][  4]LogModuleManager: Shutting down and abandoning module HTTP (102)
+[2014.07.06-07.23.46:407][  4]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (101)
+[2014.07.06-07.23.46:408][  4]LogModuleManager: Shutting down and abandoning module AutomationWorker (100)
+[2014.07.06-07.23.46:408][  4]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (99)
+[2014.07.06-07.23.46:408][  4]LogModuleManager: Shutting down and abandoning module AnalyticsET (98)
+[2014.07.06-07.23.46:408][  4]LogModuleManager: Shutting down and abandoning module Analytics (97)
+[2014.07.06-07.23.46:408][  4]LogModuleManager: Shutting down and abandoning module ProfilerService (96)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module TaskGraph (95)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.07.06-07.23.46:567][  4]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.07.06-07.23.46:568][  4]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.07.06-07.23.46:734][  4]LogDerivedDataCache: Shutdown
+[2014.07.06-07.23.46:734][  4]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.07.06-07.23.46:734][  4]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.06-07.23.46:735][  4]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.06-07.23.46:736][  4]LogExit: Exiting.
+[2014.07.06-07.23.46:737][  4]Log file closed, 07/06/14 17:23:46
